@@ -1,0 +1,5 @@
+train 6150 {'unverifiable': 2460, 'partially_supported': 1230, 'contradicted': 1230, 'supported': 1230} {'medical': 2050, 'finance': 2050, 'legal': 2050}
+dev 600 {'contradicted': 120, 'partially_supported': 120, 'unverifiable': 240, 'supported': 120} {'medical': 200, 'finance': 200, 'legal': 200}
+test 600 {'partially_supported': 120, 'supported': 120, 'unverifiable': 238, 'contradicted': 122} {'legal': 200, 'medical': 200, 'finance': 200}
+challenge 150 {'supported': 30, 'partially_supported': 30, 'unverifiable': 53, 'contradicted': 37} {'medical': 50, 'finance': 50, 'legal': 50}
+Validation passed.

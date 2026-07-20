@@ -1,0 +1,76 @@
+{
+  "version": "v17",
+  "label_map": {
+    "supported": "supported",
+    "partially_supported": "partially_supported",
+    "contradicted": "contradicted",
+    "unsupported": "unverifiable",
+    "insufficient_information": "unverifiable"
+  },
+  "splits": [
+    {
+      "split": "train",
+      "n": 6150,
+      "old_counts": {
+        "unsupported": 1230,
+        "partially_supported": 1230,
+        "insufficient_information": 1230,
+        "contradicted": 1230,
+        "supported": 1230
+      },
+      "new_counts": {
+        "unverifiable": 2460,
+        "partially_supported": 1230,
+        "contradicted": 1230,
+        "supported": 1230
+      },
+      "sub_counts": {
+        "unsupported": 1230,
+        "insufficient_information": 1230
+      }
+    },
+    {
+      "split": "dev",
+      "n": 600,
+      "old_counts": {
+        "contradicted": 120,
+        "partially_supported": 120,
+        "insufficient_information": 120,
+        "unsupported": 120,
+        "supported": 120
+      },
+      "new_counts": {
+        "contradicted": 120,
+        "partially_supported": 120,
+        "unverifiable": 240,
+        "supported": 120
+      },
+      "sub_counts": {
+        "insufficient_information": 120,
+        "unsupported": 120
+      }
+    },
+    {
+      "split": "test",
+      "n": 600,
+      "old_counts": {
+        "partially_supported": 120,
+        "supported": 120,
+        "insufficient_information": 116,
+        "contradicted": 122,
+        "unsupported": 122
+      },
+      "new_counts": {
+        "partially_supported": 120,
+        "supported": 120,
+        "unverifiable": 238,
+        "contradicted": 122
+      },
+      "sub_counts": {
+        "insufficient_information": 116,
+        "unsupported": 122
+      }
+    }
+  ],
+  "total_records": 7350
+}

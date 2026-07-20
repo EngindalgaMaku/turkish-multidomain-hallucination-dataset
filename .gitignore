@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Ortam
+.env
+.venv
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Pilot versiyonlar (gecici, ana dizine alinmadan once)
+data/train_6150_pilot*.jsonl
+
+# Buyuk model dosyalari
+*.bin
+*.safetensors
+*.pt
+*.ckpt
